@@ -10,16 +10,29 @@ const Home = () => {
         <a
           href="https://www.linkedin.com/in/emma-maria-thal%C3%A9n-3aba66173/"
           target="blank"
+          rel="noopener noreferrer"
         >
           <Icon size="huge" name="linkedin" color="black" />
         </a>
-        <a href="https://github.com/emtalen" target="_blank">
+        <a
+          href="https://github.com/emtalen"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Icon size="huge" name="github" color="black" />
         </a>
-        <a href="https://www.facebook.com/emmamaria.thalen" target="_blank">
+        <a
+          href="https://www.facebook.com/emmamaria.thalen"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Icon size="huge" name="facebook" color="black" />
         </a>
-        <a href="https://www.instagram.com/emthalen/?hl=sv" target="_blank">
+        <a
+          href="https://www.instagram.com/emthalen/?hl=sv"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Icon size="huge" name="instagram" color="black" />
         </a>
       </Container>

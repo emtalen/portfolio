@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "semantic-ui-css/semantic.min.css";
 import Home from './components/Home'
+import About from './components/About'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Header />
       <Switch>
         <Route exact path='/' component={Home}></Route>
+        <Route exact path='/about' component={About}></Route>
       </Switch>
       <Footer />
     </>

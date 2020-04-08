@@ -6,17 +6,22 @@ import { Switch, BrowserRouter, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "semantic-ui-css/semantic.min.css";
-import Home from './components/Home'
-import About from './components/About'
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
     <>
       <Header />
       <Switch>
-        <Route exact path='/' component={Home}></Route>
-        <Route exact path='/about' component={About}></Route>
+        <Route exact path="/" component={Home}></Route>
+        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/projects" component={Projects}></Route>
       </Switch>
+      <Home />
+      <About />
+      <Projects />
       <Footer />
     </>
   );

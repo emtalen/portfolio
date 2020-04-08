@@ -30,6 +30,16 @@ const Header = () => {
             About
           </Menu.Item>
         </NavLink>
+        <NavLink to="/projects">
+          <Menu.Item
+            name="projects"
+            active={activeItem === "projects"}
+            onClick={handleItemClick}
+            asLink={NavLink}
+          >
+            Projects
+          </Menu.Item>
+        </NavLink>
       </Menu>
     </Segment>
   );

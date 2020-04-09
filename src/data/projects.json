@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Mars Times visitor interface",
+    "description": "This is astudent project where we did a Newspaper. This is the interface for the visitor where he or she can read free articles, or sign up and buy a subscription to read premium articles.",
+    "github": "https://github.com/emtalen/newsroom_3_client_user",
+    "website": "https://themarstimes.netlify.com/"
+  },
+  {
+    "id": 2,
+    "name": "Mars Times admin interface",
+    "description": "This is a student project where we did a Newspaper. This is the admin interface where a journalist or editor can log in to write and publish articles.",
+    "github": "https://github.com/emtalen/newsroom_admin",
+    "website": "https://admin-marstimes.netlify.com/"
+  },
+  {
+    "id": 3,
+    "name": "Mars Times mobile interface",
+    "description": "This is a student project where we did a Newspaper. This is the mobile application that is the visitors interface where he or she can read free articles and if they have a premium account, log in to read premium articles.",
+    "github": "https://github.com/emtalen/newsroom_3_mobile_app"
+  },
+  {
+    "id": 4,
+    "name": "Mars Times API",
+    "description": "This is a student project where we did a Newspaper. This is our own API that we built to store data, authenticate users, make external API calls and serialize the responses.",
+    "github": "https://github.com/emtalen/newsroom_3_api"
+  },
+  {
+    "id": 5,
+    "name": "Rock, Paper, Scissors challenge",
+    "description": "This was a is a student project where I developt a rock, paper, scissors game in React",
+    "github": "https://github.com/emtalen/rps_challenge",
+    "website": "https://scissorsrockpapergame.netlify.com/"
+  },
+  {
+    "id": 6,
+    "name": "Grog Bot",
+    "description": "This is a student project where we created a web application where the user can choose an ingredient and then get a result of different cocktails that includes that ingredient, using the CocktailsDB API. We also used Systembolagets API to view the swedish produced alcohol available for the chosen drink",
+    "github": "https://github.com/emtalen/team_2_grog_bot_client",
+    "website": "https://grogbot.netlify.com/"
+  },
+  {
+    "id": 7,
+    "name": "Grog Bot API",
+    "description": "This is a student project where we created the API for our application Grog Bot. Here we stored data, serialized the reponses and made all external API calls.",
+    "github": "https://github.com/emtalen/team_2_grog_bot_api"
+  },
+  {
+    "id": 8,
+    "name": "Slow Food",
+    "description": "This is a student project where we created a website where a user can log in to order food. It is displaying a menu and allows the user to make an order.",
+    "github": "https://github.com/emtalen/slowfood-client-team-1",
+    "website": "https://slowfood-team1.netlify.com/"
+  },
+  {
+    "id": 9,
+    "name": "Slow Food API",
+    "description": "This is a student project where we created the API for the Slow Food website. Here we are storing data, authenticating the users and handling the orders",
+    "github": "https://github.com/emtalen/slowfood_api_team_1",
+    "website": "https://slowfood-team1.netlify.com/"
+  },
+  {
+    "id": 10,
+    "name": "The Cooper Test",
+    "description": "This is a student project where we created a Cooper test calculator. The user can log in and enter their results and get a graph of previous results to view progress.",
+    "github": "https://github.com/emtalen/cooper_client",
+    "website": "https://cooper-client.netlify.com/"
+  },
+  {
+    "id": 11,
+    "name": "The Cooper Test API",
+    "description": "This is a student project where we created the API for the Cooper Test. Here we are authenticating the user and storing the data.",
+    "github": "https://github.com/emtalen/cooper_api"
+  },
+  {
+    "id": 12,
+    "name": "Books API",
+    "description": "This is a student project where we built a small API using Express NodeJs for the first time and testing with Mocha, Chai and Supertest.",
+    "github": "https://github.com/emtalen/adv_books_api"
+  }
+]

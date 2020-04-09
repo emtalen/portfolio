@@ -1,5 +1,5 @@
 const initialState = {
+  projects: [],
+};
 
-}
-
-export default initialState
+export default initialState;

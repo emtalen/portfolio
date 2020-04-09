@@ -9,8 +9,10 @@ import "semantic-ui-css/semantic.min.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import { useSelector } from "react-redux";
 
 const App = () => {
+  const projects = useSelector((state) => state.projects)
   return (
     <>
       <Header />
@@ -21,7 +23,7 @@ const App = () => {
       </Switch>
       <Home />
       <About />
-      <Projects />
+      {projects && <Projects />}
       <Footer />
     </>
   );

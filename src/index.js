@@ -2,37 +2,23 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import { Switch, BrowserRouter, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
+import App from './App'
 import "semantic-ui-css/semantic.min.css";
-import Home from "./components/Home";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import { useSelector } from "react-redux";
 
-const App = () => {
-  const projects = useSelector((state) => state.projects)
-  return (
-    <>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Home}></Route>
-        <Route exact path="/about" component={About}></Route>
-        <Route exact path="/projects" component={Projects}></Route>
-      </Switch>
-      <Home />
-      <About />
-      {projects && <Projects />}
-      <Footer />
-    </>
-  );
-};
+import { Provider } from "react-redux";
+import configureStore from "../src/state/store/configureStore";
 
+
+
+const store = configureStore();
+window.store = store;
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
   document.getElementById("root")
 );
 

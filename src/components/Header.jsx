@@ -3,6 +3,7 @@ import { Segment, Menu } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+
   const [{activeItem}, setItem] = useState({activeItem: 'home'})
   const handleItemClick = (e, { name }) => {
     setItem({ activeItem: name });
@@ -15,7 +16,6 @@ const Header = () => {
             name="home"
             active={activeItem === "home"}
             onClick={handleItemClick}
-            asLink={NavLink}
           >
             Emma-Maria Thalén
           </Menu.Item>
@@ -25,7 +25,6 @@ const Header = () => {
             name="about"
             active={activeItem === "about"}
             onClick={handleItemClick}
-            asLink={NavLink}
           >
             About
           </Menu.Item>
@@ -35,7 +34,6 @@ const Header = () => {
             name="projects"
             active={activeItem === "projects"}
             onClick={handleItemClick}
-            asLink={NavLink}
           >
             Projects
           </Menu.Item>
